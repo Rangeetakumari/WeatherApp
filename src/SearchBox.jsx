@@ -78,7 +78,8 @@ export default function SearchBox({ updateInfo }) {
                 <Button variant="contained" type="submit">
                     Search
                 </Button>
-
+<br></br>
+                 <br></br>
                 {error && <p style={{ color: 'red' }}>City not found</p>}
             </form>
         </div>
